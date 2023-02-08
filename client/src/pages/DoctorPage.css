@@ -1,0 +1,79 @@
+.doctorPage{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.doctorContent{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 290px;
+  padding-right: 30px;
+}
+
+.doctorTopBar{
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #2D3A64;
+  display: flex;
+  align-items: center;
+  color: #2D3A64;
+  justify-content: flex-end;
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 300px;
+  display: inline-flex;
+  margin-right: 10px;
+  flex: 10;
+}
+
+.searchBarInput {
+  flex-grow: 1;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #2D3A64;
+  border-radius: 5px 0 0 5px;
+  background: white;
+}
+
+.searchBarButton {
+  width: 40px;
+  background: #2D3A64;
+  color: white;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.doctorTopBarRight{
+  display: flex;
+  align-items: center;
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.doctorTopBarRight img {
+  margin-left: 10px;
+  border-radius: 100%;
+  width: 30px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.doctorProfileTitle{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 10px;
+  flex: 19;
+}
+

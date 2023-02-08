@@ -1,0 +1,174 @@
+
+
+.doctorProfileGrid{
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr 1.3fr;
+  grid-template-areas: 
+  "profile profile profile profile profile profile profile profile"
+  "reviews reviews services services services offices offices offices";
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem 0 1.5rem 0;
+  box-sizing: border-box;
+}
+
+.doctorProfileCard {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);;
+}
+
+.doctorInfoCard {
+  grid-area: profile;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.doctorProfile{
+  width: 100px;
+  border-radius: 1rem;
+}
+
+.doctorProfileContent{
+  flex-grow: 1;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.doctorProfileContentH1{
+  margin: 0;
+  color: #2D3A64;
+}
+
+.doctorProfileContentP{
+  margin: 0;
+  margin-top: -8px;
+  color: #797979;
+}
+
+.doctorSpecific{
+  width: 100%;
+  display: grid;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-areas: 
+  "info info contact address"
+  "info info website nothing";
+}
+
+.doctorInfoGrid{
+  grid-area: info;
+}
+
+.doctorContactGrid{
+  grid-area: contact;
+}
+
+.doctorAddressGrid{
+  grid-area: address;
+}
+
+.doctorWebsiteGrid{
+  grid-area: website;
+}
+
+.doctorProfileSpecific{
+  text-align: left;
+}
+
+.doctorProfileSpecificTitle{
+  color: #797979;
+  font-weight: bold;
+  margin: 0;
+}
+
+.doctorProfileSpecificContent{
+  margin: 0;
+}
+
+.doctorReviewsCard {
+  grid-area: reviews;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.bottonCardTitle{
+  font-weight: bold;
+  text-align: left;
+  color: #2D3A64;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.doctorReview{
+  margin-bottom: 10px;
+}
+
+.doctorReviewerName{
+  display: inline-block;
+  width: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.doctorReviewerComment{
+  margin: 0;
+  margin-top: -5px;
+}
+
+.doctorServicesCard {
+  grid-area: services;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.doctorServices{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.doctorServiceName{
+  flex: 4;
+  font-weight: bold;
+  margin: 0;
+}
+
+.doctorServiceDescription{
+  flex: 6;
+  margin: 0;
+}
+
+.doctorOfficesCard {
+  grid-area: offices;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.doctorOffices p{
+  margin: 0;
+}
+
+.doctorOffices{
+  margin-bottom: 10px;
+}
+
+.doctorOfficeName{
+  font-weight: bold;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

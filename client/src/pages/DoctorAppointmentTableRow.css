@@ -1,0 +1,138 @@
+.checkedIcon{
+  fill: #2D3A64;
+  margin-left: 10px;
+}
+
+/* .doctionAppointmentLocationExpander{
+  display: flex;
+  gap: 1rem;
+}
+
+.doctionAppointmentLocationExpanderTitle{
+  margin: 0;
+  font-weight: bold;
+}
+
+.doctionAppointmentLocationExpanderDetail{
+  margin: 0;
+} */
+
+.doctorAppointmentExpanderTop{
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.doctorAppointmentExpanderVerify{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.doctorAppointmentExpanderVerifyForm{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.doctorAppointmentExpanderVerifyButton{
+  background-color: white;
+  color: #2D3A64;
+  border: 1px solid #2D3A64;
+  border-radius: .5rem;
+  padding: 10px;
+}
+
+.doctorAppointmentExpanderVerifyButton:hover{
+  background-color: #2D3A64;
+  color: white
+}
+
+.doctorAppointmentExpanderBillTitle{
+  font-weight: bold;
+}
+
+.doctorAppointmentExpanderBill{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex: 1;
+}
+
+.doctorAppointmentExpanderBillForm{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.doctorAppointmentExpanderLocation{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex: 1;
+}
+
+.doctionAppointmentLocationExpanderTitle{
+  font-weight: bold;
+}
+
+.doctorTableRow:hover{
+  background-color: rgba(255, 4, 0, 0.634);
+}
+
+.appointmentNoteContainer{
+  background-color: #EAF3FA;
+  padding: 1rem;
+}
+
+.doctorAppointmentExpanderBottomTitle{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.appointmentNoteButton{
+  padding: 10px;
+  background-color: white;
+  color:#2D3A64;
+  border: 1px solid #2D3A64;
+  border-radius: 0.5rem;
+  width: 100px;
+}
+
+.appointmentNoteButton:hover{
+  padding: 10px;
+  background-color: #2D3A64;
+  color: white;
+  border: 1px solid #2D3A64;
+  border-radius: 0.5rem;
+  width: 100px;
+}
+
+.appointmentNoteButtonContainer{
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.doctorAppointmentServiceContainer{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.doctorAppointmentServiceContainerTitle{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.doctorAppointmentServiceContainerDetail{
+  margin: 0;
+  font-size: 20px;
+}

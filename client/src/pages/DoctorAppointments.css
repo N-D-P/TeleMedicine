@@ -1,0 +1,59 @@
+.doctorAppointmentContainer{
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0 1.5rem 0;
+}
+
+.doctorAppointmentHeader{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+
+.doctorAppointmentHeader p{
+  /* display: inline-block; */
+  font-weight: bold;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.doctorAppointmentHeaderForm{
+  margin-right: 1rem;
+}
+
+.doctorAppointmentSelectDate{
+  position: relative;
+  margin-right: 1rem;
+}
+
+.doctorAppointmentSelectDateInputCalendar {
+  position: absolute;
+  /* left: 50%; */
+  transform: translateX(-50%);
+  top: 40px;
+  border: 1px solid #ccc;
+  z-index: 5;
+}
+
+.doctorAppointmentTable{
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+
+.doctorAppointmentDeleteButtonOff{
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+
+.doctorAppointmentDeleteButtonOn, .doctorAppointmentDeleteButtonOff:hover{
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  padding: 10px;
+}

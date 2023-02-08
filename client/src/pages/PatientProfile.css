@@ -1,0 +1,174 @@
+
+
+.patientProfileGrid{
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr 1.3fr;
+  grid-template-areas: 
+  "profile profile profile profile profile profile profile profile"
+  "reviews reviews services services services offices offices offices";
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem 0 1.5rem 0;
+  box-sizing: border-box;
+}
+
+.patientProfileCard {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);;
+}
+
+.patientInfoCard {
+  grid-area: profile;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.patientProfile{
+  width: 100px;
+  border-radius: 1rem;
+}
+
+.patientProfileContent{
+  flex-grow: 1;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.patientProfileContentH1{
+  margin: 0;
+  color: #2D3A64;
+}
+
+.patientProfileContentP{
+  margin: 0;
+  margin-top: -8px;
+  color: #797979;
+}
+
+.patientSpecific{
+  width: 100%;
+  display: grid;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-areas: 
+  "info info contact address"
+  "info info website nothing";
+}
+
+.patientInfoGrid{
+  grid-area: info;
+}
+
+.patientContactGrid{
+  grid-area: contact;
+}
+
+.patientAddressGrid{
+  grid-area: address;
+}
+
+.patientWebsiteGrid{
+  grid-area: website;
+}
+
+.patientProfileSpecific{
+  text-align: left;
+}
+
+.patientProfileSpecificTitle{
+  color: #797979;
+  font-weight: bold;
+  margin: 0;
+}
+
+.patientProfileSpecificContent{
+  margin: 0;
+}
+
+.patientReviewsCard {
+  grid-area: reviews;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.bottonCardTitle{
+  font-weight: bold;
+  text-align: left;
+  color: #2D3A64;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.patientReview{
+  margin-bottom: 10px;
+}
+
+.patientReviewerName{
+  display: inline-block;
+  width: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.patientReviewerComment{
+  margin: 0;
+  margin-top: -5px;
+}
+
+.patientServicesCard {
+  grid-area: services;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.patientServices{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.patientServiceName{
+  flex: 4;
+  font-weight: bold;
+  margin: 0;
+}
+
+.patientServiceDescription{
+  flex: 6;
+  margin: 0;
+}
+
+.patientOfficesCard {
+  grid-area: offices;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.patientOffices p{
+  margin: 0;
+}
+
+.patientOffices{
+  margin-bottom: 10px;
+}
+
+.patientOfficeName{
+  font-weight: bold;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

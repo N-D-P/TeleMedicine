@@ -1,0 +1,107 @@
+.loginPage{
+  display: flex;
+  background-image: url("../asset/loginBackground.jpg");
+  height: 100vh;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left, center;
+
+}
+
+.loginIntroBackground{
+  flex: 1;
+  height: 100vh;
+}
+
+.loginFormContainer{
+  flex: 1;
+  height: 100vh;
+  position: relative;;
+}
+
+.loginForm{
+  font-family: bellada;
+  color: #2D3A64;
+  position:absolute;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-radius: 10px;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.loginInputContainer{
+  display: flex;
+  align-items: center;
+  background-color: #EAF3FA;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.loginInput{
+  flex-grow: 1;
+  margin-left: 5px;
+  width: 250px;
+  border: 0;
+  background-color: #EAF3FA;
+  color: #2D3A64;
+}
+
+.loginInput:focus{
+  outline: none;
+}
+
+.loginId:focus-within{
+  border:1px solid #2D3A64;
+}
+
+.loginControl{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 293px;
+}
+
+.loginControl a {
+  /* text-decoration: none; */
+  color:#2D3A64
+}
+
+.rememberMe{
+  display: flex;
+  align-items: center;
+}
+
+.loginButton{
+  padding: 10px;
+  margin-top: 15px;
+  color: white;
+  background-color: #2D3A64;
+  border-radius: 15px;
+  width: 293px;
+  border: 0;
+  border: 1px solid #2D3A64;
+  box-sizing: border-box;
+}
+
+.loginButton:hover{
+  box-sizing: border-box;
+  background-color: white;
+  color: #2D3A64;
+}
+
+.loginForm img{
+  width: 250px;
+}
+
+.wrongCred{
+  color: #ea6a5f;
+}

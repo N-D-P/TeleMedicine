@@ -1,0 +1,10 @@
+
+.sidebarItem {
+    cursor: pointer;
+}
+
+.btn {
+    pointer-events:none;
+    filter:none;
+    opacity:.65
+}
